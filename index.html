@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,500,300' rel='stylesheet' type='text/css'>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <ul class="accordion" id="accordion">
+      <img class="logo" src="img/logo.png" alt="test accordion" width="216" height="39">
+      <li class="accordion__item" onclick="showContent(event.currentTarget)">
+        <span class="triangle"></span>
+        <div class="link">Основы языка и как на нём говорить правильно</div>
+        <ul class="submenu">
+          <li class="submenu__item"><a href="#">Лексическая структура</a></li>
+          <li class="submenu__item"><a href="#">Типы данных, значения и переменные</a></li>
+          <li class="submenu__item"><a href="#">Выражения и операторы инструкции</a></li>
+        </ul>
+      </li>
+      <li class="accordion__item" onclick="showContent(event.currentTarget)">
+        <span class="triangle"></span>
+        <div class="link   accordion__item--light">Функции</div>
+        <ul class="submenu">
+          <li class="submenu__item"><a href="#">Лексическая структура</a></li>
+          <li class="submenu__item"><a href="#">Типы данных, значения и переменные</a></li>
+          <li class="submenu__item"><a href="#">Выражения и операторы инструкции</a></li>
+        </ul>
+      </li>
+      <li class="accordion__item" onclick="showContent(event.currentTarget)">
+        <span class="triangle"></span>
+        <div class="link">Обработка ошибок и отладка</div>
+        <ul class="submenu">
+          <li class="submenu__item"><a href="#">Лексическая структура</a></li>
+          <li class="submenu__item"><a href="#">Типы данных, значения и переменные</a></li>
+          <li class="submenu__item"><a href="#">Выражения и операторы инструкции</a></li>
+        </ul>
+      </li>
+      <li class="accordion__item" onclick="showContent(event.currentTarget)">
+        <span class="triangle"></span>
+        <div class="link   accordion__item--light">Объекты и массивы</div>
+        <ul class="submenu">
+          <li class="submenu__item"><a href="#">Лексическая структура</a></li>
+          <li class="submenu__item"><a href="#">Типы данных, значения и переменные</a></li>
+          <li class="submenu__item"><a href="#">Выражения и операторы инструкции</a></li>
+        </ul>
+      </li>
+      <li class="accordion__item" onclick="showContent(event.currentTarget)">
+        <span class="triangle"></span>
+        <div class="link">События</div>
+        <ul class="submenu">
+          <li class="submenu__item"><a href="#">Лексическая структура</a></li>
+          <li class="submenu__item"><a href="#">Типы данных, значения и переменные</a></li>
+          <li class="submenu__item"><a href="#">Выражения и операторы инструкции</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

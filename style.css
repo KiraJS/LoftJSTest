@@ -1,0 +1,100 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  min-height: 500px;
+  width: 960px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.accordion {
+  display: block;
+  margin: auto;
+  padding: 0;
+  min-height: 230px;
+  width: 460px;
+  list-style: none;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  margin-bottom: 24px;
+  width: 216px;
+}
+
+.submenu__item {
+  padding: 0 20px 10px;
+  background: #e7e7e7;
+  font-weight: 300;
+}
+
+.submenu__item:first-child {
+  padding-top: 40px;
+}
+
+.submenu__item:last-child {
+  border-radius: 0 0 30px 30px;
+}
+
+.link {
+  position: relative;
+  z-index: 10;
+  padding: 20px 15px;
+  border-radius: 50px;
+  background-color: #696666;
+  color: white;
+  font-size: 15px;
+}
+
+.accordion__item--light {
+  padding: 19px 14px;
+  border: 1px solid #d0d0d0;
+  background-color: #e7e7e7;
+  color: #696666;
+}
+
+.submenu {
+  display: none;
+  margin: 0;
+  margin-top: -25px;
+  padding: 0;
+  list-style: none;
+}
+
+.accordion__item {
+  position: relative;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.link:hover {
+  background-color: #ff8663;
+}
+
+.accordion__item:hover .triangle {
+  background-image: url("img/triangle_white.png")
+}
+
+.triangle {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 20;
+  width: 14px;
+  height: 12px;
+  background-image: url("img/triangle_orange.png");
+  background-position: 93% 53%;
+  background-repeat: no-repeat;
+  transform: rotate(0deg);
+}
